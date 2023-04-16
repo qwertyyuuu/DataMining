@@ -18,11 +18,10 @@ for i in range(size):
         else:
             adj_matrix[i][j] = 0
 
-
-for i in range(size):
-    for j in range(size):
-        print(adj_matrix[i][j], end=" ")
-    print()
+# for i in range(size):
+#     for j in range(size):
+#         print(adj_matrix[i][j], end=" ")
+#     print()
 
 # Создаем вектор начальных вероятностей
 v = np.array([1 / size] * size)
